@@ -28,7 +28,7 @@
       a {
         color: #333;
         font-weight: 400;
-      }      
+      }
       a.graybtn {
         width: 90px;
         text-align: center;
@@ -89,15 +89,12 @@
       .container > .contacts {
         margin-top: auto;
         margin-bottom: auto;
-        grid-column: 2/4;        
+        grid-column: 2/4;
       }
-      a.contacts{
+      a.contacts {
         /* display: none; */
         color: #333;
       }
-
-      
-
       @media screen and (max-width: 1000px) {
         .container {
           display: block;
@@ -110,32 +107,22 @@
           margin-right: 5%;
           margin-left: 5%;
           margin-bottom: 5%;
-          background-color: aqua;
         }
-
         .container > div.tabs {
           margin-top: 5%;
           margin-right: 5%;
           margin-left: 5%;
-          margin-bottom: 5%;
-          background-color: red;
+          margin-bottom: 15%;
         }
         .container > div.tabs > p {
+          text-align: start;          
+        }
+        .contacts_button{
+          display: none;
+        }
+        .contacts{
           text-align: center;
-        }
-
-        .container > .contacts_button {
-          margin-left: auto;
-          margin-right: auto;
-          width: 6em;
-
-          background-color: yellow;
-        }
-
-        .container > .contacts {
-          padding: 1em;
-          background-color: rgb(39, 83, 83);
-        }
+        }        
       }
     </style>
   </head>
@@ -167,14 +154,26 @@
       <div class="contacts_button">
         <a href="#" class="graybtn">Contacts</a>
       </div>
-      <div class="contacts">          
+      <div class="contacts">
         <p>
-          <a class="contacts" href="https://vk.com/daniil_vlasenko" target="_blank">vk</a>
-          <a class="contacts" href="https://t.me/davlasenko" target="_blank">telegram</a>
-          <a class="contacts" href="https://twitter.com/VlasenkoDaniil?s=09" target="_blank"
+          <a
+            class="contacts"
+            href="https://vk.com/daniil_vlasenko"
+            target="_blank"
+            >vk</a
+          >
+          <a class="contacts" href="https://t.me/davlasenko" target="_blank"
+            >telegram</a
+          >
+          <a
+            class="contacts"
+            href="https://twitter.com/VlasenkoDaniil?s=09"
+            target="_blank"
             >twitter</a
           >
-          <a class="contacts" href="mailto:d@vlasenko.gq" target="_blank">d@vlasenko.gq</a>
+          <a class="contacts" href="mailto:d@vlasenko.gq" target="_blank"
+            >d@vlasenko.gq</a
+          >
         </p>
       </div>
     </div>
