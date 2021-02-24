@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniil Vlasenko</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        font-weight: 300;
+        color: #333;
+      }
+      h1 {
+        font-size: 3em;
+        font-weight: 500;
+        margin-bottom: 0;
+      }
+      h2 {
+        font-size: 1.66em;
+        font-weight: 400;
+      }
+      p {
+        font-size: 19px;
+      }
+      a {
+        color: #333;
+        font-weight: 400;
+      }      
+      a.graybtn {
+        width: 90px;
+        text-align: center;
+        display: block;
+        font-family: "Segoe UI";
+        text-decoration: none;
+        font-weight: 00;
+        font-size: 14px;
+        border: #333 1px solid;
+        color: #333;
+        padding: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 20px auto;
+        transition: 0.5s;
+        border-radius: 0px;
+      }
+      a.graybtn:hover {
+        top: 5px;
+        transition: 0.5s;
+        color: #00000059;
+        border: #00000059 1px solid;
+        border-radius: 10px;
+      }
+      a.graybtn:active {
+        color: #000;
+        border: #1a1a1a 1px solid;
+        transition: 0.07s;
+        background-color: #fff;
+      }
+      .container {
+        display: grid;
+
+        grid-auto-rows: minmax(100px, auto);
+      }
+      .container > div.text {
+        margin-top: 5vh;
+        margin-right: 20vw;
+        margin-left: 10vw;
+        margin-bottom: 10vh;
+        grid-column: 1/3;
+      }
+
+      .container > div.tabs {
+        margin-top: auto;
+        margin-right: 5vw;
+        margin-left: 0vw;
+        margin-bottom: auto;
+        grid-column: 3/4;
+      }
+      .container > .contacts_button {
+        margin-top: auto;
+        margin-right: 5vw;
+        margin-left: 10vw;
+        margin-bottom: auto;
+        grid-column: 1/1;
+      }
+      .container > .contacts {
+        margin-top: auto;
+        margin-bottom: auto;
+        grid-column: 2/4;        
+      }
+      a.contacts{
+        /* display: none; */
+        color: #333;
+      }
+
+      
+
+      @media screen and (max-width: 1000px) {
+        .container {
+          display: block;
+
+          grid-auto-rows: minmax(100px, auto);
+          grid-gap: 1em;
+        }
+        .container > div.text {
+          margin-top: 5%;
+          margin-right: 5%;
+          margin-left: 5%;
+          margin-bottom: 5%;
+          background-color: aqua;
+        }
+
+        .container > div.tabs {
+          margin-top: 5%;
+          margin-right: 5%;
+          margin-left: 5%;
+          margin-bottom: 5%;
+          background-color: red;
+        }
+        .container > div.tabs > p {
+          text-align: center;
+        }
+
+        .container > .contacts_button {
+          margin-left: auto;
+          margin-right: auto;
+          width: 6em;
+
+          background-color: yellow;
+        }
+
+        .container > .contacts {
+          padding: 1em;
+          background-color: rgb(39, 83, 83);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h1>Hello.</h1>
+        <h2>My name is Daniil Vlasenko.</h2>
+        <p>
+          I am a student of the Faculty of Mathematics and Mechanics of
+          <a href="https://spbu.ru" target="_blank">
+            St. Petersburg State University</a
+          >, studying Applied Mathematics and Computer Science.
+        </p>
+        <p>
+          I am interested in everything related to programming and the
+          application of mathematical knowledge.
+        </p>
+        <p>I will gladly accept your ideas that we could implement together.</p>
+      </div>
+      <div class="tabs">
+        <p><a>Projects</a></p>
+        <p>
+          <a href="https://youtu.be/o90f5YgkC1c" target="_blank">Interview</a>
+        </p>
+        <p><a>Photos</a></p>
+        <p><a>So will the garden wither?</a></p>
+      </div>
+      <div class="contacts_button">
+        <a href="#" class="graybtn">Contacts</a>
+      </div>
+      <div class="contacts">          
+        <p>
+          <a class="contacts" href="https://vk.com/daniil_vlasenko" target="_blank">vk</a>
+          <a class="contacts" href="https://t.me/davlasenko" target="_blank">telegram</a>
+          <a class="contacts" href="https://twitter.com/VlasenkoDaniil?s=09" target="_blank"
+            >twitter</a
+          >
+          <a class="contacts" href="mailto:d@vlasenko.gq" target="_blank">d@vlasenko.gq</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
