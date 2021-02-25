@@ -45,6 +45,9 @@ a.contacts {
   /* display: none; */
   color: #333;
 }
+div.contacts > div{
+    display: none;
+}
 h1 {
   font-size: 3em;
   font-weight: 500;
@@ -160,4 +163,7 @@ a.contacts_bytton:active {
   div.container > div.contacts_button {
     display: none;
   }
+  div.contacts > div{
+    display: block;
+}
 }
