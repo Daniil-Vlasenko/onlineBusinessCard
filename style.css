@@ -145,6 +145,7 @@ a.contacts_bytton:active {
     margin-top: 30px;
     margin-right: 50px;
     margin-left: 50px;
+    text-align: center;
   }
   div.tabs > p {
     margin-top: 0px;
@@ -154,6 +155,7 @@ a.contacts_bytton:active {
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 40px;
+    text-align: center;
   }
   div.container > div.contacts_button {
     display: none;
