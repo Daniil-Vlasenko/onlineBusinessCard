@@ -24,9 +24,6 @@ h2 {
 p {
   font-size: 19px;
 }
-div.button {
-  display: flex;  
-}
 
 a.back {
   width: 90px;
