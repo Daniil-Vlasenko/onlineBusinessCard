@@ -63,5 +63,11 @@ a.back:active {
     margin-left: 50px;
     margin-bottom: 35px;
   }
+  a.back {    
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;    
+  }
 }
   

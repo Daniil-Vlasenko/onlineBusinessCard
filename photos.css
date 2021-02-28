@@ -71,4 +71,14 @@ a.back:active {
   background-color: #fff;
 }
 @media screen and (max-width: 900px) {
+  div.button {
+    margin-left: 0px;
+  }
+  a.back {    
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
 }
