@@ -62,6 +62,7 @@ a.back {
   margin-right: auto;
   margin-top: 20px;
   border-radius: 0px;
+  transition: border-radius 0.5s;
 }
 a.back:hover {
   top: 5px;

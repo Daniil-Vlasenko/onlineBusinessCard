@@ -37,18 +37,21 @@ div.button {
 a.back {
   width: 90px;
   text-align: center;
-  display: block;
+  display: block;  
   text-decoration: none;
   font-weight: 00;
   font-size: 14px;
+  font-weight: 400;
   border: #333 1px solid;
   color: #333;
   padding: 3px;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: auto;
   margin-left: 0px;
   margin-right: auto;
+  margin-top: 20px;
   border-radius: 0px;
+  transition: border-radius 0.5s;
 }
 a.back:hover {
   top: 5px;
