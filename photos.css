@@ -39,11 +39,13 @@ img{
   
 }
 div.button {
-  display: flex;  
-  margin-left: 10vw;
-  margin-bottom: 35px;
+  position: fixed;
+  left: 10vw;
+  right: auto;
+  bottom: 35px;
+  top: auto;   
 }
-a.back {
+a.back {  
   width: 90px;
   text-align: center;
   display: block;  
@@ -76,7 +78,8 @@ a.back:active {
 }
 @media screen and (max-width: 900px) {  
   div.button {
-    margin-left: 0px;
+    position: static;  
+    margin-bottom: 35px;    
   }
   a.back {    
     padding-left: auto;
