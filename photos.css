@@ -16,11 +16,15 @@ div.photos {
 h2 {
   font-size: 1.66em;
   font-weight: 400;
-  text-align: center
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 p {
   font-size: 19px;
-  text-align: center
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 img{
   display: block;  
@@ -28,6 +32,7 @@ img{
   margin-right: auto;  
   margin-bottom: 20px;
   width: 375px;
+  
 }
 div.button {
   display: flex;  
