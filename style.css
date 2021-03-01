@@ -57,7 +57,9 @@ div.contacts {
 
 a.contacts {      
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
+
 div.contacts > div {
   display: none;
 }
