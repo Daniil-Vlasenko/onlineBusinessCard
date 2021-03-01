@@ -50,7 +50,6 @@ div.container > div.contacts_button {
 }
 div.contacts {
   display: none;
-  /* display: none; ?*/
   margin-top: auto;
   margin-bottom: auto;
   grid-column: 2/4;
@@ -174,6 +173,7 @@ a.contacts_bytton:active {
     margin-bottom: 10px;
   }
   div.container > div.contacts {
+    display: block;
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 40px;
