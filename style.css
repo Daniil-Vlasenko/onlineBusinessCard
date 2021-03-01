@@ -40,16 +40,14 @@ div.container > div.contacts_button {
   grid-column: 1/1;
 }
 div.contacts {
+  display: none;
+  /* display: none; ?*/
   margin-top: auto;
   margin-bottom: auto;
   grid-column: 2/4;
 }
-.hide_blok {
-  display: none;
-}
-a.contacts {
-  
-  /* display: none; */
+
+a.contacts {      
   color: #333;
 }
 div.contacts > div {
