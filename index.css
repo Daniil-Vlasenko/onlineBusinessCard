@@ -23,6 +23,12 @@ body {
 div.container {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
+
+  opacity: 0;
+	transition: all 0.8s ease 0s;
+}
+div.container._active {
+	opacity: 1;
 }
 div.text {
   margin-top: 60px;
@@ -49,20 +55,30 @@ div.container > div.contacts_button {
   margin-bottom: auto;
   grid-column: 1/1;
 }
-div.contacts {
-  display: none;
+div.contacts {  
   margin-top: auto;
   margin-bottom: auto;
-  grid-column: 2/4;
-}
+  grid-column: 2/4; 
 
+  pointer-events: none;
+  cursor: default;
+     
+  
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+div.contacts.active{
+  opacity: 1;
+  pointer-events: auto;
+  cursor: auto;   
+}
 a.contacts {      
   color: rgb(255, 255, 255);
-  text-decoration: none;
+  text-decoration: none;    
 }
 
 div.contacts > div {
-  display: none;
+  display: none;  
 }
 h1 {
   font-size: 3em;
