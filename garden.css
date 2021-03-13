@@ -21,7 +21,7 @@ div.text {
   grid-column: 1/3;
 
 	opacity: 0;
-	transition: all 0.8s ease 0s;
+	transition: opacity 0.8s ease 0s;
 }  
 div.text._active {
 	opacity: 1;
