@@ -27,13 +27,13 @@ div.photos {
   margin-left: 50px;
 
   transform: translate(0px, 120%);
-	opacity: 0;
+	/* opacity: 0; */
 	transition: all 0.8s ease 0s;
 }
-.title._active {
+/* .title._active {
 	transform: translate(0px, 0px);
 	opacity: 1;
-}
+} */
 ._text-of-picture {
   font-size: 19px;
   text-align: center;
