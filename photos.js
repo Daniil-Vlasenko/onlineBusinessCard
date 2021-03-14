@@ -33,7 +33,9 @@ if (animItems.length > 0) {
 
 	setTimeout(() => {
 		animOnScroll();  
-        let animItem = document.querySelector('._anim-first');
-        animItem.classList.remove('_anim-first');      
+        let animItem = document.querySelector('._anim-first');	
+		if(animItem != null) {
+            animItem.classList.remove('_anim-first');  
+        }	            
 	}, 300);
 }

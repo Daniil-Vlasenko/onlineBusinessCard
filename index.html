@@ -15,9 +15,14 @@
       href="apple-touch-icon-180x180.png"
     />
     <link rel="”manifest”" href="”site.webmanifest”" />    
-    <link rel="stylesheet" href="index.css"/>            
+    <link rel="stylesheet" href="index.css"/>           
   </head>
   <body>
+    <div class="preloader">
+      <div class="loader">
+        <img class="loader" src="ball-triangle.svg">
+      </div>
+    </div>
     <div class="container _anim-items">
       <div class="text">        
         <div class="hello">
@@ -74,7 +79,8 @@
         </p>
       </div>
     </div>
-    <script src="index.js" defer></script>
-    <script src="photos.js" defer></script>
+    <script src="preloader.js" defer></script>     
+    <script src="index.js" defer></script>    
+    <script src="photos.js" defer></script>        
   </body>  
 </html>
