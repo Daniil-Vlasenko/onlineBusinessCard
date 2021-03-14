@@ -20,7 +20,7 @@ body {
   width: 100%;
   height: 100%;
   background:white;
-  z-index: 2;
+  z-index: 3;
   background-position: top center; 
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -30,7 +30,7 @@ body {
   opacity: 1;
   transition: all 1s;
 }
-.preloader.done{
+.preloader.done {
   opacity: 0;
   visibility: hidden;  
 }
@@ -40,12 +40,27 @@ div.photos {
   margin-top: 80px;
   max-width: 375px;
 }
+img{
+  position: relative;
+  z-index: 2;
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 20px;
+  width: 100%;  
+
+  opacity: 0;
+	transition: opacity 0.8s ease 0s;
+}
+img._active{
+  opacity: 1;
+}
 .title {
   font-size: 1.66em;
   font-weight: 400;
   text-align: center;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-left: 50px;  
 
   transform: translate(0px, 120%);
 	opacity: 0;
@@ -71,19 +86,6 @@ div.photos {
 ._text-of-picture._active {
 	transform: translate(0px, 0px);
 	opacity: 1;	
-}
-img{
-  display: block;  
-  margin-left: auto;
-  margin-right: auto;  
-  margin-bottom: 20px;
-  width: 100%;  
-
-  opacity: 0;
-	transition: opacity 0.8s ease 0s;
-}
-img._active{
-  opacity: 1;
 }
 div.button {
   position: fixed;
