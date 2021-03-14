@@ -55,6 +55,9 @@ img{
 img._active{
   opacity: 1;
 }
+.title_div{
+  overflow: hidden;
+}
 .title {
   font-size: 1.66em;
   font-weight: 400;
