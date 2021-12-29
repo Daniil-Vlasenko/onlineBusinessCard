@@ -220,11 +220,9 @@ a.contacts_bytton:active {
     margin-left: 50px;
     margin-top: 40px;
     text-align: center;
+    opacity: 100;
   }
   div.container > div.contacts_button {
     display: none;
-  }
-  div.contacts > div {
-    display: block;
   }
 }
