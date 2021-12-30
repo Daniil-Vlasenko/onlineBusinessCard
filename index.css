@@ -14,10 +14,11 @@ body {
   border: 0px;
   background: black;  
   background-image: url(images/Flowers_of_cherry/20170321_193843-02.jpeg);
-  background-position: top center; 
+  background-position: fixed;
+  background-size: cover;
+  /* background-position: top center;  */
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;  
+  /* background-attachment: fixed; */  
   text-shadow: 1px 1px 2px black;
 }
 .preloader{
