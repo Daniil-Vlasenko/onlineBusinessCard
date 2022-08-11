@@ -1,9 +1,7 @@
-var btn_contacts = document.querySelector('a.contacts_bytton');
-var contacts = document.querySelector("div.contacts");
-
+var btn_contacts = document.querySelector('.contacts_bytton');
+var contacts = document.querySelector(".contacts");
  
-btn_contacts.addEventListener("click", function(){          
-    // contacts.style.display = (contacts.style.display == "block") ? "none" : "block"; 
+btn_contacts.addEventListener("click", function(){              
     if (!contacts.classList.contains('active')) {
         contacts.classList.add('active');  
     } else {
