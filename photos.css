@@ -39,7 +39,7 @@ img{
   bottom: 4vh;
   top: auto; 
 }
-a.back {  
+.back {  
   width: 90px;
   text-align: center;
   display: block;  
@@ -55,11 +55,15 @@ a.back {
   border-radius: 0px;
   transition: border-radius 0.5s;
 }
-a.back:hover {
+.back:hover {
   top: 5px;
   transition: 0.5s;
   color: #0000007a;
   border: #0000007a 1px solid;
   border-radius: 10px;
 }
-
+@media screen and (max-width: 900px) {  
+  .button {    
+    display: none;   
+  }
+}
