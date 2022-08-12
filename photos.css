@@ -64,7 +64,7 @@ img{
 }
 @media screen and (max-width: 900px) {    
   .photos {        
-    margin-top: 7vh;    
+    margin-top: 5vh;    
   }
   .button {    
     display: none;   
