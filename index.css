@@ -152,8 +152,7 @@ a.contacts {
   div.contacts {  
     opacity: 1;
     text-align: center;
+    pointer-events: auto;
+    cursor: auto;
   }
-
-
-
 }
