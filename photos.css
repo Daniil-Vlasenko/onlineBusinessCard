@@ -13,7 +13,7 @@ body {
 .photos {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 10vh;
   max-width: 375px;
 }
 img{
@@ -62,7 +62,10 @@ img{
   border: #0000007a 1px solid;
   border-radius: 10px;
 }
-@media screen and (max-width: 900px) {  
+@media screen and (max-width: 900px) {    
+  .photos {        
+    margin-top: 7vh;    
+  }
   .button {    
     display: none;   
   }

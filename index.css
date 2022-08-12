@@ -120,6 +120,12 @@ a.contacts {
 }
 
 @media screen and (max-width: 700px) {
+  .hello_language_bytton {
+    margin-top: 6vh;
+  }  
+  h1 {
+    margin: 0vh;
+  }
   .container {
     display: block;  
     margin-top: 2vh;  
