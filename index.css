@@ -155,10 +155,15 @@ a.contacts {
     grid-column-gap: 0%;
     align-items: center;
   }
+  .language_bytton {
+    justify-self: end;
+    margin-right: 1px;
+  }
   div.contacts {  
     opacity: 1;
     text-align: center;
     pointer-events: auto;
     cursor: auto;
   }
+
 }
