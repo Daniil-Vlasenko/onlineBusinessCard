@@ -27,7 +27,7 @@ a {
 }
 .container {
   display: grid;  
-
+  margin-top: 7vh;  
   margin-left: 6vw;
   margin-right: 6vw;  
   padding: 0;  
@@ -37,7 +37,7 @@ a {
   grid-column-gap: 5%;
 }
 .text {    
-  margin-bottom: 7%;  
+  margin-bottom: 0%;  
   grid-column: 1/4;   
 }
 .pages {
