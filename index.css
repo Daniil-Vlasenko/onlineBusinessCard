@@ -41,8 +41,11 @@ a {
   grid-column: 1/4;   
 }
 .pages {
-  margin-top: auto;    
-  margin-bottom: auto;
+  /* margin-top: auto;     */
+  /* margin-bottom: auto; */
+  margin-left: auto;    
+  margin-right: auto;
+  margin-top: 27vh;
   grid-column: 4;
 }
 .buttons {  
@@ -139,9 +142,10 @@ a.contacts {
   }
   .pages {
     text-align: center;
+    margin-top: 0vh;
   }
   .pages a{
-    text-decoration: none;
+    text-decoration: none;    
   }
   .pc {  
     display: none;   
