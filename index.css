@@ -129,6 +129,12 @@ a.contacts {
   h1 {
     margin: 0vh;
   }
+  p {  
+    font-size: 17px;
+  }
+  a.contacts {      
+    font-size: 15px;  
+  }
   .container {
     display: block;  
     margin-top: 2vh;  
