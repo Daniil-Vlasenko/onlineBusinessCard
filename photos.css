@@ -33,23 +33,23 @@ p {
   margin-top: 10vh;
   max-width: 30em;
 }
+
 img{
   position: relative;  
   margin-left: auto;
   margin-right: auto;  
   margin-bottom: 20px;
-  width: 100%;  
-  /* min-height: 150px; */
+  width: 100%;    
 }
+
 .title {
-  /* font-size: 1.66em; */
-  /* font-weight: 400; */
   text-align: center;    
 }
+
 .nameOfPictures {
-  /* font-size: 19px; */
   text-align: center;
 }
+
 .button {
   position: fixed;
   left: 10vw;
@@ -57,6 +57,7 @@ img{
   bottom: 4vh;
   top: auto; 
 }
+
 .back {  
   width: 90px;
   text-align: center;
@@ -73,6 +74,7 @@ img{
   border-radius: 0px;
   transition: border-radius 0.5s;
 }
+
 .back:hover {
   top: 5px;
   transition: 0.5s;
