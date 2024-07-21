@@ -102,6 +102,10 @@ p {
 }
 
 @media (max-width: 768px) {
+  .column {
+    margin-top: 5vh;
+    max-width: 90vw;
+  }
   h1 {    
     font-size: 3em;    
   }
