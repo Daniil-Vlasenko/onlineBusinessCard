@@ -167,6 +167,22 @@ a.contacts {
 }
 
 @media (max-width: 768px) {
+  h1 {    
+    font-size: 3em;    
+  }
+  
+  h2 {            
+    font-size: 1.5em;
+  }
+  
+  p {  
+    font-size: 1em;
+  }
+
+  a.contacts {
+    font-size: 1em;
+  }
+
   .adaptive {
     max-width: 480px;
     grid-template-columns: 1fr;
