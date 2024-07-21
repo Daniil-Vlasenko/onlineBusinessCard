@@ -184,6 +184,7 @@ a.contacts {
   }
 
   .adaptive {
+    padding-top: 3em;  
     max-width: 480px;
     grid-template-columns: 1fr;
     column-gap: 0em;    
