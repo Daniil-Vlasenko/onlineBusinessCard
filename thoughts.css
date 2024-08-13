@@ -35,6 +35,10 @@ p {
   max-width: 60vw;
 }
 
+.title_div {
+  max-width: 90%;
+}
+
 .title {
   /* font-size: 1.66em; */
   font-weight: 400;

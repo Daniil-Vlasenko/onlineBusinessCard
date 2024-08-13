@@ -105,5 +105,11 @@ img{
   p {  
     font-size: 1.2em;
   }
+
+  .title_div {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
