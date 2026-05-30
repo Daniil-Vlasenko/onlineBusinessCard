@@ -105,6 +105,9 @@ video{
   .button {    
     display: none;   
   }
+  .rubutton {    
+    display: none;   
+  }
 }
 
 @media (max-width: 768px) {
