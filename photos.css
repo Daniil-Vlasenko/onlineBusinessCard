@@ -60,16 +60,25 @@ video{
 
 .button {
   position: fixed;
-  left: 10vw;
+  left: 5vw;
   right: auto;
-  bottom: 4vh;
-  top: auto; 
+  bottom: 8vh;
+  top: auto;
 }
 
-.back {  
+.rubutton {
+  position: fixed;
+  left: 5vw;
+  right: auto;
+  bottom: 3vh;
+  top: auto;
+}
+
+.back {
+  height: min-content;
   width: 90px;
   text-align: center;
-  display: block;  
+  display: block;
   text-decoration: none;
   font-size: 1.1em;
   border: rgb(54, 54, 54) 1px solid;
@@ -90,6 +99,7 @@ video{
   border: #0000007a 1px solid;
   border-radius: 10px;
 }
+
 
 @media screen and (max-width: 900px) {      
   .button {    
